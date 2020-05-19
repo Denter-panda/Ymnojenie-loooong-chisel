@@ -21,8 +21,8 @@ int main() //Это конечная версия и я не понимаю, ч�
 	typedef std::vector<int> lnum;
 	const int base = 1000 * 1000 * 1000;
 
-	std::vector <int> a{2,1,5};
-	std::vector <int> b{2,1,9};
+	std::vector <int> a{2,1};// Ввод чисел, пока так
+	std::vector <int> b{2,1};
 
 	lnum c(a.size() + b.size());
 	for (size_t i = 0; i < a.size(); ++i)
